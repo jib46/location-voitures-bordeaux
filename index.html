@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOTRE NOM — Location de voitures à Bordeaux</title>
+    <meta name="description" content="Location de voitures à Bordeaux entre particuliers. Flotte variée, assurance incluse, disponible 7j/7. Réservez sur Getaround ou Turo.">
+    <meta name="keywords" content="location voiture Bordeaux, Getaround Bordeaux, Turo Bordeaux, voiture pas cher Bordeaux">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header id="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-name">VOTRE NOM</span>
+                <span class="logo-tagline">Location · Bordeaux</span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links" role="list">
+                <li><a href="#flotte" class="nav-link">Notre flotte</a></li>
+                <li><a href="#pourquoi" class="nav-link">Pourquoi nous</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#flotte" class="btn-nav">Réserver</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="hero-bg-gradient"></div>
+            <div class="hero-bg-grid"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">
+                <span class="eyebrow-dot"></span>
+                Location de voitures à Bordeaux
+            </p>
+            <h1 class="hero-title">
+                Roulez à votre<br>
+                <em class="gold-italic">rythme.</em>
+            </h1>
+            <p class="hero-subtitle">
+                Des véhicules soignés, disponibles 7j/7, assurance incluse.<br>
+                Libres à la journée ou à la semaine — sans agence, sans contrainte.
+            </p>
+            <div class="hero-actions">
+                <a href="#flotte" class="btn-primary">
+                    <i class="fa-solid fa-car"></i>
+                    Voir la flotte
+                </a>
+                <a href="#pourquoi" class="btn-ghost">
+                    En savoir plus
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">7</span>
+                    <span class="stat-label">Véhicules</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat">
+                    <span class="stat-number">7j/7</span>
+                    <span class="stat-label">Disponible</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Assuré</span>
+                </div>
+            </div>
+        </div>
+        <a href="#flotte" class="hero-scroll-hint" aria-label="Défiler vers le bas">
+            <span>Découvrir</span>
+            <div class="scroll-arrow">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </a>
+    </section>
+
+    <!-- ===== FLOTTE ===== -->
+    <section id="flotte">
+        <div class="section-intro">
+            <p class="section-eyebrow">Notre flotte</p>
+            <h2 class="section-title">Choisissez votre véhicule</h2>
+            <p class="section-desc">De la citadine économique au cabriolet premium, trouvez le véhicule qui correspond à votre voyage.</p>
+        </div>
+
+        <div class="fleet-grid">
+
+            <!-- Hyundai i10 -->
+            <article class="car-card reveal">
+                <div class="car-visual" style="--c1:#134e4a;--c2:#042f2e;">
+                    <div class="car-silhouette">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+                    <span class="car-badge eco">Économique</span>
+                    <!-- Remplacer par une vraie photo : <img src="images/i10.jpg" alt="Hyundai i10 2014"> -->
+                </div>
+                <div class="car-body">
+                    <div class="car-meta">
+                        <div>
+                            <h3 class="car-name">Hyundai i10</h3>
+                            <span class="car-year">· 2014</span>
+                        </div>
+                        <span class="car-type">Citadine</span>
+                    </div>
+                    <ul class="car-tags">
+                        <li><i class="fa-solid fa-leaf"></i> Économique</li>
+                        <li><i class="fa-solid fa-city"></i> Idéale en ville</li>
+                        <li><i class="fa-solid fa-gas-pump"></i> Faible conso</li>
+                    </ul>
+                    <div class="car-buttons">
+                        <a href="#" class="btn-platform btn-getaround">
+                            <span class="pl-icon">G</span>
+                            <span>Getaround</span>
+                        </a>
+                        <a href="#" class="btn-platform btn-turo">
+                            <span class="pl-icon">T</span>
+                            <span>Turo</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Renault Mégane IV -->
+            <article class="car-card reveal">
+                <div class="car-visual" style="--c1:#1e3a5f;--c2:#0c1f3a;">
+                    <div class="car-silhouette">
+                        <i class="fa-solid fa-car-side"></i>
+                    </div>
+                    <span class="car-badge confort">Confort</span>
+                </div>
+                <div class="car-body">
+                    <div class="car-meta">
+                        <div>
+                            <h3 class="car-name">Renault Mégane IV</h3>
+                            <span class="car-year">· 2021</span>
+                        </div>
+                        <span class="car-type">Berline</span>
+                    </div>
+                    <ul class="car-tags">
+                        <li><i class="fa-solid fa-star"></i> Confort</li>
+                        <li><i class="fa-solid fa-road"></i> Longs trajets</li>
+                        <li><i class="fa-solid fa-calendar-check"></i> Récent</li>
+                    </ul>
+                    <div class="car-buttons">
+                        <a href="#" class="btn-platform btn-getaround">
+                            <span class="pl-icon">G</span>
+                            <span>Getaround</span>
+                        </a>
+                        <a href="#" class="btn-platform btn-turo">
+                            <span class="pl-icon">T</span>
+                            <span>Turo</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Alfa Romeo MiTo -->
+            <article class="car-card reveal">
+                <div class="car-visual" style="--c1:#7f1d1d;--c2:#450a0a;">
+                    <div class="car-silhouette">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+                    <span class="car-badge sport">Sport</span>
+                </div>
+                <div class="car-body">
+                    <div class="car-meta">
+                        <div>
+                            <h3 class="car-name">Alfa Romeo MiTo</h3>
+                            <span class="car-year">· 2016</span>
+                        </div>
+                        <span class="car-type">Sportive</span>
+                    </div>
+                    <ul class="car-tags">
+                        <li><i class="fa-solid fa-bolt"></i> Sportive</li>
+                        <li><i class="fa-solid fa-fire"></i> Caractère</li>
+                        <li><i class="fa-solid fa-flag"></i> Design italien</li>
+                    </ul>
+                    <div class="car-buttons">
+                        <a href="#" class="btn-platform btn-getaround">
+                            <span class="pl-icon">G</span>
+                            <span>Getaround</span>
+                        </a>
+                        <a href="#" class="btn-platform btn-turo">
+                            <span class="pl-icon">T</span>
+                            <span>Turo</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- BMW Série 2 Cabriolet — Featured -->
+            <article class="car-card reveal car-featured">
+                <div class="car-featured-ribbon">
+                    <i class="fa-solid fa-crown"></i> Top du parc
+                </div>
+                <div class="car-visual" style="--c1:#78600a;--c2:#3d2f00;">
+                    <div class="car-silhouette">
+                        <i class="fa-solid fa-car-side"></i>
+                    </div>
+                    <span class="car-badge premium">Premium</span>
+                </div>
+                <div class="car-body">
+                    <div class="car-meta">
+                        <div>
+                            <h3 class="car-name">BMW Série 2 Cab.</h3>
+                            <span class="car-year">· 2016</span>
+                        </div>
+                        <span class="car-type">Cabriolet</span>
+                    </div>
+                    <ul class="car-tags">
+                        <li><i class="fa-solid fa-crown"></i> Premium</li>
+                        <li><i class="fa-solid fa-wind"></i> Cabriolet</li>
+                        <li><i class="fa-solid fa-sun"></i> Expérience</li>
+                    </ul>
+                    <div class="car-buttons">
+                        <a href="#" class="btn-platform btn-getaround">
+                            <span class="pl-icon">G</span>
+                            <span>Getaround</span>
+                        </a>
+                        <a href="#" class="btn-platform btn-turo">
+                            <span class="pl-icon">T</span>
+                            <span>Turo</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Citroën C1 -->
+            <article class="car-card reveal">
+                <div class="car-visual" style="--c1:#14532d;--c2:#052e16;">
+                    <div class="car-silhouette">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+                    <span class="car-badge eco">Économique</span>
+                </div>
+                <div class="car-body">
+                    <div class="car-meta">
+                        <div>
+                            <h3 class="car-name">Citroën C1</h3>
+                            <span class="car-year">· 2014</span>
+                        </div>
+                        <span class="car-type">Citadine</span>
+                    </div>
+                    <ul class="car-tags">
+                        <li><i class="fa-solid fa-leaf"></i> Économique</li>
+                        <li><i class="fa-solid fa-square-parking"></i> Facile à garer</li>
+                        <li><i class="fa-solid fa-city"></i> Urbaine</li>
+                    </ul>
+                    <div class="car-buttons">
+                        <a href="#" class="btn-platform btn-getaround">
+                            <span class="pl-icon">G</span>
+                            <span>Getaround</span>
+                        </a>
+                        <a href="#" class="btn-platform btn-turo">
+                            <span class="pl-icon">T</span>
+                            <span>Turo</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Opel Adam -->
+            <article class="car-card reveal">
+                <div class="car-visual" style="--c1:#4a1d96;--c2:#2e1065;">
+                    <div class="car-silhouette">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+                    <span class="car-badge tendance">Tendance</span>
+                </div>
+                <div class="car-body">
+                    <div class="car-meta">
+                        <div>
+                            <h3 class="car-name">Opel Adam</h3>
+                            <span class="car-year">· 2015</span>
+                        </div>
+                        <span class="car-type">Citadine</span>
+                    </div>
+                    <ul class="car-tags">
+                        <li><i class="fa-solid fa-palette"></i> Tendance</li>
+                        <li><i class="fa-solid fa-heart"></i> Style affirmé</li>
+                        <li><i class="fa-solid fa-city"></i> Citadine</li>
+                    </ul>
+                    <div class="car-buttons">
+                        <a href="#" class="btn-platform btn-getaround">
+                            <span class="pl-icon">G</span>
+                            <span>Getaround</span>
+                        </a>
+                        <a href="#" class="btn-platform btn-turo">
+                            <span class="pl-icon">T</span>
+                            <span>Turo</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Renault Grand Scénic -->
+            <article class="car-card reveal">
+                <div class="car-visual" style="--c1:#7c2d12;--c2:#431407;">
+                    <div class="car-silhouette">
+                        <i class="fa-solid fa-van-shuttle"></i>
+                    </div>
+                    <span class="car-badge famille">Famille</span>
+                </div>
+                <div class="car-body">
+                    <div class="car-meta">
+                        <div>
+                            <h3 class="car-name">Renault Grand Scénic</h3>
+                            <span class="car-year">· 2016</span>
+                        </div>
+                        <span class="car-type">Familiale</span>
+                    </div>
+                    <ul class="car-tags">
+                        <li><i class="fa-solid fa-users"></i> Familiale</li>
+                        <li><i class="fa-solid fa-suitcase-rolling"></i> Grand coffre</li>
+                        <li><i class="fa-solid fa-expand"></i> Spacieux</li>
+                    </ul>
+                    <div class="car-buttons">
+                        <a href="#" class="btn-platform btn-getaround">
+                            <span class="pl-icon">G</span>
+                            <span>Getaround</span>
+                        </a>
+                        <a href="#" class="btn-platform btn-turo">
+                            <span class="pl-icon">T</span>
+                            <span>Turo</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ===== POURQUOI NOUS ===== -->
+    <section id="pourquoi">
+        <div class="section-intro">
+            <p class="section-eyebrow">Nos avantages</p>
+            <h2 class="section-title">Pourquoi nous choisir</h2>
+            <p class="section-desc">Une location sans stress, transparente et flexible. Tout ce dont vous avez besoin, sans le superflu.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card reveal">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h3>Assurance incluse</h3>
+                <p>Tous nos véhicules sont assurés via Getaround et Turo. Roulez l'esprit tranquille, sans frais cachés ni mauvaise surprise.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3>Disponible 7j/7</h3>
+                <p>Nos voitures sont accessibles tous les jours de la semaine, weekends et jours fériés inclus. Vos projets n'attendent pas.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-sliders"></i>
+                </div>
+                <h3>Flexibilité totale</h3>
+                <p>Journée, weekend ou semaine complète : c'est vous qui choisissez la durée. Aucun engagement, juste votre liberté.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <h3>Au cœur de Bordeaux</h3>
+                <p>Véhicules localisés à Bordeaux pour une prise en charge rapide et facile, au plus près de chez vous.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h3>Flotte diversifiée</h3>
+                <p>Citadine, berline, sportive, cabriolet ou familiale — notre flotte couvre tous les besoins, tous les budgets.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-handshake"></i>
+                </div>
+                <h3>Propriétaire vérifié</h3>
+                <p>Profil certifié sur les deux plateformes, avec avis clients vérifiés. La confiance, ça se mérite.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <div class="contact-wrapper">
+            <div class="contact-left reveal">
+                <p class="section-eyebrow">Nous trouver</p>
+                <h2 class="section-title">Localisation</h2>
+                <p class="contact-desc">
+                    Nos véhicules sont stationnés à Bordeaux. L'adresse exacte de remise des clés vous est communiquée lors de la confirmation de réservation sur Getaround ou Turo.
+                </p>
+                <div class="contact-details">
+                    <div class="contact-row">
+                        <div class="contact-icon"><i class="fa-solid fa-map-pin"></i></div>
+                        <div>
+                            <strong>Bordeaux, Gironde</strong>
+                            <span>33000 — France</span>
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                        <div>
+                            <strong>Disponibilité</strong>
+                            <span>Lundi → Dimanche, tous les jours</span>
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <div>
+                            <strong>Plateformes</strong>
+                            <span>Getaround · Turo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-links">
+                    <a href="#" class="contact-platform-btn">
+                        <span class="pl-icon">G</span>
+                        <span>Voir sur Getaround</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="contact-platform-btn">
+                        <span class="pl-icon turo">T</span>
+                        <span>Voir sur Turo</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-right reveal">
+                <div class="map-card">
+                    <div class="map-pin-anim">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="map-city">Bordeaux</div>
+                    <div class="map-sub">Gironde · 33000</div>
+                    <div class="map-sep"></div>
+                    <a href="https://maps.google.com/?q=Bordeaux,France" target="_blank" rel="noopener" class="map-open-btn">
+                        <i class="fa-brands fa-google"></i>
+                        Ouvrir dans Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo-name">VOTRE NOM</span>
+                <span class="logo-tagline">Location · Bordeaux</span>
+                <p class="footer-brand-desc">Location de voitures entre particuliers à Bordeaux. Simple, assuré, disponible 7j/7.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#flotte">Notre flotte</a></li>
+                    <li><a href="#pourquoi">Pourquoi nous</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Réserver</h4>
+                <ul>
+                    <li><a href="#">Getaround</a></li>
+                    <li><a href="#">Turo</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Légal</h4>
+                <ul>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Confidentialité</a></li>
+                    <li><a href="#">CGV</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <p>&copy; 2024 VOTRE NOM — Location de voitures à Bordeaux. Tous droits réservés.</p>
+            <p class="footer-made">Bordeaux, France <span class="gold-dot">·</span> Disponible 7j/7</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
